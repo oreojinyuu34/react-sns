@@ -15,7 +15,7 @@ function Sidebar() {
       <TwitterIcon className="sidebar__twitterIcon" />
 
       {/* サイドバーオプション */}
-      <SidebarOption text="ホーム" Icon={HomeIcon} />
+      <SidebarOption text="ホーム" Icon={HomeIcon} active />
       <SidebarOption text="ブックマーク" Icon={BookmarkBorderIcon} />
       <SidebarOption text="お気に入りフォルダ" Icon={FolderSpecialIcon} />
       <SidebarOption text="プロフィール" Icon={PermIdentityIcon} />
